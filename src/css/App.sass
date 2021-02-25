@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@300&family=Raleway&family=Roboto&display=swap')
+
+@mixin flex($justify,$align)
+    display: flex !important
+    justify-content: $justify !important
+    align-items: $align !important
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    background-image: linear-gradient( 180.3deg, rgba(214,224,255,1) 37.2%, rgba(254,168,168,1) 137.3% )
+    background-attachment: fixed
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: center
+
+.navbar-brand
+    margin-right: 2.5rem !important
+    font-family: 'Montserrat', sans-serif !important
+
+.customDropDown
+    @include flex(center,center)
+    color: hsla(0,0%,100%,.5) !important
+
+    i
+        margin-left: 0.5rem !important
+        transform: translateY(-12.5%)
+
+    &:hover
+        text-decoration: none !important
+        color: hsla(0,0%,100%,.75) !important
+
+.form-control, .dropdown-item
+    font-family: 'Raleway', sans-serif !important
+
+.custom-container
+    width: 95%
+    margin: 1rem auto 0 auto
+
+.alert
+
+    .alert-heading
+        font-family: 'Oxygen', sans-serif !important
+
+    p
+        font-family: 'Roboto', sans-serif !important
+
+.graph
+    @include flex(center,center)
+
+.graphLoader
+    @include flex(center,center)
+    height: 50vh
+
+.error-container
+    position: absolute
+    top: 50%
+    right: 50%
+    transform: translate(50%,-50%)
+    background: rgb(254,254,254)
+    padding: 1rem 2rem
+    border-radius: 5px
+    @include flex(space-between,center)
+
+p.loading
+    font-size: 1.5rem
+    color: #0D6EFD
+    margin: 0 1rem 0 0 !important
+    
+
+
