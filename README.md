@@ -2,7 +2,7 @@
 
 [![COVID-19 Status](covid-19-status.gif)](https://report-covid19.netlify.app/ )
 
-This Website shows the Status of COVID-19 all over the world.
+This Website shows the Status of COVID-19 from all over the world.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
