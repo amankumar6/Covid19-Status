@@ -3,7 +3,7 @@ import { Dropdown, FormControl } from 'react-bootstrap';
 import { getCountries } from '../fetch';
 
 const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
-    <a
+    <div
         href=""
         ref={ref}
         className="customDropDown"
@@ -14,7 +14,7 @@ const CustomToggle = React.forwardRef(({ children, onClick }, ref) => (
     >
         <span>{children}</span>
         <i className="fas fa-sort-down"></i>
-    </a>
+    </div>
 ));
 
 const CustomMenu = React.forwardRef(
@@ -75,6 +75,7 @@ const DropDown = ({ handleChange }) => {
                             key={i}
                             eventKey={i + 1}
                             onClick={handleClick}
+                            className="text-truncate"
                         >
                             {country}
                         </Dropdown.Item>
