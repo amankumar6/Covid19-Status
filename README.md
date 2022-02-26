@@ -1,6 +1,6 @@
 # 𝗖𝗢𝗩𝗜𝗗-𝟭𝟵 𝗦𝘁𝗮𝘁𝘂𝘀
 
-[![COVID-19 Status](covid-19-status.gif)](https://covid19-report.ml/)
+[![COVID-19 Status](covid-19-status.gif)](https://covid19-status.ml/)
 
 This Website shows the Status of COVID-19 from all over the world.
 
