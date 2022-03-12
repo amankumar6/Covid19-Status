@@ -1525,7 +1525,7 @@
   "resolved" "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.4.3.tgz"
   "version" "0.4.3"
   dependencies:
-    "ansi-html" "^0.0.7"
+    "ansi-html" "^0.0.8"
     "error-stack-parser" "^2.0.6"
     "html-entities" "^1.2.1"
     "native-url" "^0.2.6"
@@ -2423,10 +2423,10 @@
   dependencies:
     "type-fest" "^0.21.3"
 
-"ansi-html@^0.0.7", "ansi-html@0.0.7":
+"ansi-html@^0.0.8", "ansi-html@0.0.8":
   "integrity" "sha1-gTWEAhliqenm/QOflA0S9WynhZ4="
-  "resolved" "https://registry.npmjs.org/ansi-html/-/ansi-html-0.0.7.tgz"
-  "version" "0.0.7"
+  "resolved" "https://registry.npmjs.org/ansi-html/-/ansi-html-0.0.8.tgz"
+  "version" "0.0.8"
 
 "ansi-regex@^2.0.0":
   "integrity" "sha1-w7M6te42DYbg5ijwRorn7yfWVN8="
@@ -12275,7 +12275,7 @@
   "resolved" "https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-3.11.1.tgz"
   "version" "3.11.1"
   dependencies:
-    "ansi-html" "0.0.7"
+    "ansi-html" "0.0.8"
     "bonjour" "^3.5.0"
     "chokidar" "^2.1.8"
     "compression" "^1.7.4"
